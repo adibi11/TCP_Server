@@ -1,0 +1,22 @@
+from enum import IntEnum
+
+
+class RequestCode(IntEnum):
+    REGISTER = 825
+    PUBLIC_KEY = 826
+    RECONNECT = 827
+    SEND_FILE = 828
+    CRC_OK = 900
+    CRC_RETRY = 901
+    CRC_ABORT = 902
+
+
+class ResponseCode(IntEnum):
+    REGISTER_SUCCESS = 1600
+    REGISTER_FAILURE = 1601
+    AES_KEY = 1602
+    FILE_RECEIVED = 1603
+    ACK = 1604
+    RECONNECT_SUCCESS = 1605
+    RECONNECT_FAILURE = 1606
+    SERVER_ERROR = 1607

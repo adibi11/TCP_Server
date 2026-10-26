@@ -1,0 +1,30 @@
+# Visual Studio
+.vs/
+*.ipch
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+
+# Build outputs
+Debug/
+Release/
+x64/
+x86/
+bin/
+obj/
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.lib
+
+# vcpkg
+vcpkg_installed/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
